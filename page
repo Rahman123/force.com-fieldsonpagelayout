@@ -51,7 +51,7 @@ for (var j = 0; j < elSections.length; j++)
 }
 }
 }
-/*Produce Fields on pagelayout using detailLayoutResults Method
+/*Produce Fields on pagelayout using detailLayoutResults Method*/
 function getfieldsonpagelayout() 
 {
 try 

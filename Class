@@ -20,6 +20,7 @@ Public with sharing class vfpagelayoutcls12
     {
 		list<String> reqfldlist=new list<String>();     
         list<string> reqfldlist_temp=rectypefld.split('%arjun%');
+        if(reqfldlist_temp.size()!=1)
         reqfldlist=reqfldlist_temp[1].split(',');
         rectypefld=reqfldlist_temp[0];
         list<string> rlist=new list<string>();  //list to split recordtype fields
